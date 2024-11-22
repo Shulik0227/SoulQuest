@@ -1,0 +1,130 @@
+@font-face {
+    font-family: "Big Noodle Titling Cyr";
+    src: url(/font/Big_Noodle_Titling_Cyr.ttf);
+}
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+img{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    color: #fff;
+    background-color: #f4922346;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+header{
+    background-color: #1E272E;
+    box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.7);
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    top: 0;
+    transition: top 0.3s;
+}
+.header-content{
+    padding: 0 44px;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+}
+.navigation-site{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.navigation-site img{
+    padding: 8px;
+    border-radius: 8px;
+    transition: background-color 0.10s ;
+}
+.navigation-site img:hover{
+    background-color: rgba(244,148,35, 0.2);
+}
+.navigation-site p{
+    margin-left: 8px;
+}
+.navigation-user{
+    display: flex;
+    justify-content:end;
+    align-items: center;
+}
+.user-signin-bnt{
+    display: flex;
+    align-items: center;
+    padding: 4px 8px;
+    border-radius: 8px;
+    margin-left: 12px;
+    transition: background-color 0.10s;
+}
+.user-signin-bnt a{
+    margin-left: 4px;
+}
+.user-signin-bnt:hover{
+    background-color: rgba(244,148,35, 0.2);
+}
+form img{
+    position: relative;
+    top: 8px;
+    right: 38px;
+}
+.navigation-user p{
+    margin-left: 8px;
+    padding: 4px;
+}
+.navigation-user p span{
+    color: #546670;
+}
+.navigation-user img{
+    margin-left: 8px;
+}
+.navigation-user a{
+    transition: color 0.10s;
+}
+.navigation-user a:hover{
+    color: rgba(244,148,35, 0.5);
+}
+.chapter{
+    display: flex;
+    justify-content: center;
+}
+.chapter-page-list{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+.chapter-page-list img{
+    width: 720px;
+}
+footer{
+    background: #1E272E;
+}
+.footer-content{
+    padding: 24px;
+}
+.footer-content p{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 500;
+}
