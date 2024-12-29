@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'a_DomIno';
+    src: url(/fonts/a_DomIno.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    background-color: #29333B;
+    color: #D1D7D7;
+    font-family: 'a_DomIno';
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+header {
+    background-color: #1E292F;
+    border-radius: 4px;
+    box-shadow: 2px 4px 8px 4px rgba(0, 0, 0, 0.4);
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+}
+
+.nav-site {
+    display: flex;
+    align-items: center;
+}
+
+.logo-site img {
+    width: 120px;
+}
